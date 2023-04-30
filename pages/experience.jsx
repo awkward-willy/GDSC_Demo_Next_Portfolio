@@ -16,7 +16,9 @@ const experience = () => {
         <title>Experience</title>
       </Head>
       <Navbar />
-      <h1>Experience</h1>
+      <div className=" my-[3%] pl-[7%]">
+        <h1 className="text-4xl">Experience</h1>
+      </div>
       <VerticalTimeline lineColor="#6D6D6B">
         {timeLineData.map((data, index) => {
           return (
