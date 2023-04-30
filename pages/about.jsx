@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Title from "../components/Title";
 import Head from "next/head";
 import Image from "next/image";
 import profilePic from "../public/normal2.png";
-import Title from "@/components/Title";
 const about = () => {
   return (
     <>

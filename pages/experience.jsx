@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Title from "../components/Title";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -8,7 +9,6 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { timeLineData } from "../constants";
 import Head from "next/head";
-import Title from "@/components/Title";
 
 const experience = () => {
   return (
