@@ -13,13 +13,15 @@ const about = () => {
       </Head>
       <Navbar />
       <Title content="About Me" />
-      <div className="flex flex-row flex-wrap justify-evenly items-center h-[64vh]">
+      <div className="flex flex-row flex-wrap justify-evenly items-center h-[67vh] overflow-auto">
         <div className="left">
           <Image src={profilePic} alt="profile" />
         </div>
         <div className="right">
           <h2 className="text-2xl">
-            Hi!👋 我是ＯＯＯ，目前就讀於中央大學ＯＯＯＯ學系。
+            Hi!👋 我是ＯＯＯ
+            <br />
+            目前就讀於中央大學ＯＯＯＯ學系
           </h2>
           <div>
             <h3 className="text-2xl">學歷</h3>
